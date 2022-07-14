@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Bookable.sol": "Bookable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Available.sol": {
+			"keccak256": "0xffd1ca46c574e84cfe29ffd0756ca558fa7a4978a9a3195ec86acd5e4bf90fd0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://44a16f5b7ee8fb05bd94b6dcb8c0d10405e16fb2b9c53f412edb5c548d364b3f",
+				"dweb:/ipfs/QmNxvzFC39ARFF9ue7QrNT3kAarqCnNWSiJGsHRtMJCmJx"
+			]
+		},
+		"contracts/Bookable.sol": {
+			"keccak256": "0xc25effb2b7363d6acf77d0a3136a11de31571598c34ded5b422029607f45d223",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://05b485bf1c7a0f31fa1c1409395f175b6aefb76be0f03339f97b72bdd6d3c611",
+				"dweb:/ipfs/QmckPFZYU22XDmti22mWawx5tfio4ZK8rVtAPSYRyvbJAH"
+			]
+		},
+		"contracts/Ownable.sol": {
+			"keccak256": "0xe25ca52a0a5c2bd62c47943a282e28dbf2553f97c87522f24857ac7599804731",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e9d288bd1adbb657bbe16a79ee9bb895fa498c5f858850c11fdf6b6d45b09ce0",
+				"dweb:/ipfs/QmesD9HPkyZ6Qn7nVDBt23S8sxg79xhpq7PD4bPbCFpZi9"
+			]
+		}
+	},
+	"version": 1
+}
